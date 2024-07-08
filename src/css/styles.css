@@ -1,0 +1,156 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan:ital@0;1&display=swap');
+
+/* Body */
+.cuerpo {
+    background-color: rgb(18, 18, 19);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner */
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(../images/qatar22.jpg)
+}
+
+/* Navbar estilos */
+.navbar {
+    background-color: #140f0783;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 0.57);
+}
+
+.navbar a:focus{
+    color: white;
+}
+
+.navbar button {
+    background-color: rgba(255, 255, 255, 0.508);
+    border-color: rgba(255, 255, 255, 0.508);
+}
+
+/* header */
+.titulo-principal {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.titulo-principal h1 {
+    font-family: 'Lora', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.titulo-principal .btn {
+    background-color: rgba(255, 255, 255, 0.146);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.28);
+}
+
+.titulo-principal .btn:hover {
+    background-color: rgba(0, 0, 0, 0.515);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titulo-principal a { 
+    color: white;
+}
+
+.titulo-principal a:hover { 
+    color: white;
+}
+
+.carousel-item h5, p{
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+#campeonesDelMundo {
+    color: white;
+}
+
+#campeonesDelMundo p {
+    font-size: 17px;
+}
+
+#cincoGrandes {
+    color: white;
+}
+
+#cincoGrandes p{
+    font-size: 17px;
+}
+
+.card {
+    box-shadow:  0 10px 15px rgba(0, 0, 0,0.9);
+}
+
+.card h5{
+    color: white;
+}
+
+.card p {
+    font-size: 17px;
+    color: white;
+    text-shadow: none;
+}
+
+#grandesDelInterior {
+    color: white;
+}
+
+#grandesDelInterior p {
+    font-size: 17px;
+}
+
+#grandesDelInterior img {
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+}
+
+.accordion-item {
+    box-shadow:  0 10px 15px rgba(0, 0, 0,0.3);
+}
+
+#jugadoresHistoricos {
+    color: white;
+}
+
+#jugadoresHistoricos p {
+    font-size: 17px;
+}
+
+#jugadoresHistoricos .carousel {
+    box-shadow:  0 10px 15px rgba(0, 0, 0,0.9);
+}
+
+/* Footer */
+.contenedor-footer p{
+    color: white;
+    font-size: 18px;
+}
+
+.contenedor-footer .nav-item a{
+    color: white;
+}
